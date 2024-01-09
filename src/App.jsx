@@ -86,7 +86,7 @@ function App() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center h-dvh bg-slate-100 dark:bg-[url(bg.jpg)] text-white">
+    <div className="flex flex-col justify-center items-center h-dvh bg-slate-100 dark:bg-[url(/pokego/bg.jpg)] text-white">
       <div className='bg-slate-700 min-w-max w-1/5 h-full flex justify-center items-center flex-col'>
         {message && (
           <div className='bg-slate-800 w-full p-6 mb-4 flex justify-center items-center'>
@@ -120,7 +120,7 @@ function App() {
         <div className='flex gap-2'>
           <div className='flex gap-2'>
             <button type="submit" onClick={handleSearch} className="bg-blue-600 text-white px-4 py-2 h-10 rounded hover:bg-blue-800 transition-all flex justify-center items-center gap-1">
-              <img src="public/search.svg" alt="" className='size-4' />
+              <img src="/pokego/search.svg" alt="" className='size-4' />
               <p>Search</p>
             </button>
             {loading && (

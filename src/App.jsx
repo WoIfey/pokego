@@ -138,7 +138,7 @@ function App() {
               )}
             </button>
             <button onClick={showCaughtPokemon} className="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600 transition-all flex justify-center items-center gap-2">
-              <img src="/pokego/storage.png" alt="" className='size-5' />
+              <img src="/pokego/storage.png" alt="" className='size-5 mt-0.5' />
               <p>Pokémon Storage</p>
             </button>
           </div>
